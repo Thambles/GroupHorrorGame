@@ -1,2 +1,2 @@
 # GroupHorrorGame
-Group project made in Unreal Engine by a made of University Graduates
+Group project made in Unreal Engine by a team of University Graduates
