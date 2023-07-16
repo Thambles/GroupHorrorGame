@@ -1,5 +1,4 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -15,7 +14,11 @@ class PLAGUEGAME_API APlagueDoctorAIController : public AAIController
 	GENERATED_BODY()
 
 
-protected:
-	UBehaviorTree* BTree;
-	UBlackboardComponent* BBC;
+public:
+	APlagueDoctorAIController();
+	virtual void OnPossess(APawn* MyPawn) override;
+	UPROPERTY(transient)
+		class UBehaviorTreeComponent* BTC;
+	UPROPERTY(transient)
+		class UBlackboardComponent* BBC;
 };
