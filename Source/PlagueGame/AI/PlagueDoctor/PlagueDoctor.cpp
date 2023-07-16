@@ -15,6 +15,7 @@ APlagueDoctor::APlagueDoctor()
 void APlagueDoctor::BeginPlay()
 {
 	Super::BeginPlay();
+	UE_LOG(LogTemp, Warning, TEXT("Player called"));
 	
 }
 
