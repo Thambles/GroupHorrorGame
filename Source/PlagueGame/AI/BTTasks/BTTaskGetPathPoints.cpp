@@ -6,10 +6,8 @@
 #include "AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "BehaviorTree/Blackboard/BlackboardKeyType_Vector.h"
-#include "Interfaces/ITargetDevice.h"
 #include "PlagueGame/AI/Pathing/PatrolPath.h"
 #include "PlagueGame/AI/PlagueDoctor/PlagueDoctor.h"
-#include "PlagueGame/AI/PlagueDoctor/PlagueDoctorAIController.h"
 
 UBTTaskGetPathPoints::UBTTaskGetPathPoints()
 {
