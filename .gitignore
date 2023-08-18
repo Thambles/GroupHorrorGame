@@ -72,3 +72,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Idea Folder gitignored as I'm using Rider Jetbrains
+/.idea
+
+# Ignoring Freddy Fazbear test asset as it's just to occupy me while I make AI : )
+/Content/AI/PlagueDoctor/Freddy

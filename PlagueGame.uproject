@@ -3,6 +3,21 @@
 	"EngineAssociation": "5.2",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "PlagueGame",
+			"Type": "Runtime",
+<<<<<<< Updated upstream
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule",
+				"Engine"
+			]
+=======
+			"LoadingPhase": "Default"
+>>>>>>> Stashed changes
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
