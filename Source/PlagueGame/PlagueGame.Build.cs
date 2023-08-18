@@ -8,7 +8,11 @@ public class PlagueGame : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
+<<<<<<< Updated upstream
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "GameplayTasks"});
+=======
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+>>>>>>> Stashed changes
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
